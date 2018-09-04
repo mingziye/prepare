@@ -1,144 +1,126 @@
 <!DOCTYPE html>
-<!-- Template by quackit.com -->
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>Data analysis</title>
-		<style type="text/css">
-		
-		body {
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			height: 100%; 
-			max-height: 100%; 
-			font-family:Impact;
-			line-height: 1.5em;
-		}
-		
-		#header {
-			position: absolute;
-			top: 50px;
-			left: 210px;
-			width: 100%;
-			height: 500px;
-            		font-size:30px;
-			font-family:Phosphate;
-			overflow: hidden;
-            /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
-			
-		}
-		
-		#nav {
-			position: absolute; 
-			top: 0;
-			bottom: 0;
-			left: 0; 
-			width: 140px;
-			overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
-			background: #0C3572; 		
-		}
-		
-		#logo {
-			padding:10px;
-		}
-		
-		main {
-			position: fixed;
-			top: 300px; /* Set this to the height of the header */
-			left: 130px; 
-			right: 0;
-			bottom: 55px;
-			overflow: auto; 
-			
-		}
-		
-		.innertube {
-			margin: 20px; /* Provides padding for the content */
-		}
-		
-		p {
-			color: #333;
-		}
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Home</title>
+<!-- core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/animate.min.css" rel="stylesheet"> 
+<link href="css/prettyPhoto.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet"> 
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->       
+<link rel="shortcut icon" href="images/ico/favicon.ico"> 
+</head> 
 
-		nav ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-		}
-		
-		nav ul a {
-			color: white;
-			text-decoration: none;
-		}
-				
-		/*IE6 fix*/
-		* html body{
-			padding: 100px 0 0 230px; /* Set the first value to the height of the header and last value to the width of the nav */
-		}
-		
-		* html main{ 
-			height: 100%; 
-			width: 100%;
-            
-		}
-		
-		</style>
-		
-		
+<body id="home">
 
-	</head>
-	
-	<body>
-    	<svg height="800" width="100%">
-  		<<polygon points="120,0 120,240 1352,240 1352,60 1280,140 1280,170 100,170 220,70 720,70 800,0  " style="fill:#26587d;" />
-		</svg>
-
-		<header id="header">
-			<div id="logo">
-				<h1>Highest Year of School Completed</h1>
+<header id="header">
+	<nav id="main-nav" class="navbar navbar-default navbar-fixed-top" role="banner">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
 			</div>
-            
-		</header>
-				
-		<main>
-			<div class="innertube">
-				
+			
+			<div class="collapse navbar-collapse navbar-right">
+				<ul class="nav navbar-nav">
+					<li class="scroll active"><a href="#home">		Background</a></li> 
+					<li class="scroll"><a href="#products">Comprison</a></li>
+                    <li class="scroll active"><a href="#home">Analysis</a></li>
+                    <li class="scroll active"><a href="#home">Latte Line</a></li> 
+				</ul>
+			</div>
+		</div><!--/.container-->
+	</nav><!--/nav-->
+</header><!--/header-->
+
+<section id="hero-banner">
+		 <div class="banner-inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							  
+								<h2>Highest year of school completed </h2> 
+						</div>
+					</div>
+				</div>
+			</div>
+</section><!--/#main-slider-->
+<section class="download-now" id="products">
+	<div class="container">
+	 <div class="section-header">
+			<h2 class="section-title wow fadeInDown">Background</h2>
+			<p class="wow fadeInDown">The level of education becomes more significant each passing day. The difference between 2011 and 2016 can effectively demonstrate the improvement of the society.<br></p>
+		
+	  </div>
+	</div>
+  </section>
+  
+<section id="services" >
+	<div class="container">
+
+		<div class="section-header">
+			<h2 class="section-title wow fadeInDown">Comprison</h2>
+			<p class="wow fadeInDown">The datasets demonstrate the highest year of completed school by age by sex between 2011 and 2016. Improvement of government helps more people get their deserving educational opportunities so that more people could have receive chances to enter shool and graduate thier high school successfully. </p>
+		</div>
+
+	</div><!--/.container-->
+</section><!--/#services-->
+
+<section id="about">
+	<div class="container">
+
+		<div class="section-header">
+			<h2 class="section-title wow fadeInDown">Latte line</h2>
+			<p class="wow fadeInDown">Latte Line divides Sydney in two classes, Sydney down class and economic line. which running from the airport north-west through Parramatta. The prosperity in the north of Latte line thoroughly shape the large differences on educational levels between regions, more people in Sydney down class has finished their year 12, but a large gap still exists comparing to the area where north of the latte line. </p>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-6 wow fadeInLeft">
+			  <img class="img-responsive" src="images/about.png" alt="">
+			</div>
+
+			<div class="col-sm-6 wow fadeInRight">
+				<h3 class="column-title">Analysis</h3>
 				<br><h1 id="Link1">Number of People DO NOT GO TO SCHOOL in 2016 & 2011</h1><br><br>
 				<p><script>generateText(300)</script></p>
                 
                 &emsp;&emsp;&emsp;&emsp;&emsp;<iframe src="https://mingziye.github.io/assmt2/" width="500" height="400"></iframe>
                 &emsp;&emsp;&emsp;&ensp;
                 <iframe src="https://mingziye.github.io/test2/" width="500" height="400"></iframe><br><br><br><br>
-                
-                <h1 id="Link2">comparison of Yr 12 completed number between Male and Female</h1><br><br><br>
-				<p><script>generateText(300)</script></p>
-                &emsp;&emsp;&emsp;&emsp;&emsp;<iframe src="https://mingziye.github.io/16_Y12_M/" width="500" height="400"></iframe>&emsp;&emsp;&emsp;&ensp;
-                <iframe src="https://mingziye.github.io/16_12_F/" width="500" height="400"></iframe><br><br><br><br>
+               
 				<h1 id="Link3">15-19 years students completed yr 12</h1><br>
 				<p><script>generateText(300)</script></p>
                 &emsp;&emsp;&emsp;&emsp;&emsp;<iframe src="https://mingziye.github.io/11_15-19Yr12/" width="500" height="400"></iframe>&emsp;&emsp;&emsp;&ensp;
                 <iframe src="https://mingziye.github.io/16_15-19Yr12/" width="500" height="400"></iframe><br><br><br><br>
-			</div><svg style= "position = 'relative' bottom= '0px' height='800' width='100%'">
-  			<polygon points="0,0 0,300 1212,300 1212,240 1150,240 100,240 40,120 190,0 " style="fill:#26587d;" />
-		</svg>
-            
-		</main>
 
-		<nav id="nav">
-			<div class="innertube">
-				<h1>Heading</h1>
-				<ul>
-					<li><a href="Link1">Comparison 1</a></li>
-					<li><a href="Link2">Comparison 2</a></li>
-					<li><a href="Link3">Comparison 3</a></li>
-					
-				</ul>
-				
 			</div>
-		</nav>
-        
- 
-	</body>
-   
+		</div>
+	</div>
+</section><!--/#about-->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/mousescroll.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.inview.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="contact/jqBootstrapValidation.js"></script>
+<script src="contact/contact_me.js"></script>
+<script src="js/custom-scripts.js"></script>
+</body>
 </html>
